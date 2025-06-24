@@ -29,7 +29,7 @@ Altrnative methods are implented in R and Python. A complete description of thes
 
 ## Data availability and provenance
 
-A complete list of all the datasets considered in this paper is given in Section C of the Supplemental Material of the paper. This includes both a description of each dataset as well as their original sources. In the above directories, the datasets are included in the corresponding figure/table in which they are (first) used.
+A complete list of all the datasets examined in this paper is given in Section C of the Supplemental Material of the paper. This includes both a description of each dataset as well as their original sources. In the above directories, the datasets are included in the corresponding figure/table folder in which they (first) appear.
 
 Apart from the simulated datasets that were created for the purpose of this paper and are now publically releashed in this repository, the real-world applications considered in this paper are common, publicly available data. The vast majority of these consist of standard daily stock prices (either of individual stocks or stock market indices), which are widely available online, and are in some cases tranformed (taking logs, differences, etc) to create the datasets used in the paper; see Section C of the Supplemental Material of the paper for more details. The only datasets of different kind are the Unemployment Rate and GNP of the US, which are available for example from the US Bureau of Labor Statistics (BLS) and the Federal Reserve Bank of St. Louis (FRED), resepctively; see links the Supplemental material. 
 
