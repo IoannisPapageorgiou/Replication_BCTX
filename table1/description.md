@@ -4,4 +4,4 @@ The datasets are in the folder "data" and include: the simulated datasets sim1, 
 
 The folder "bctx" contains the C++ code for the above foecasting experiments.
 
-The folder "bench" contains implementations of the alternative methods in R and Python.
+The folder "bench" contains implementations of the alternative methods in R and Python. 
