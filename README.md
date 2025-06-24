@@ -8,4 +8,4 @@ The code in this repository generates the forecasting results in the paper "The 
 
 The main contents of this repository are organised as follows:
 
-\item table1
+* table1
