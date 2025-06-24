@@ -33,4 +33,21 @@ A complete list of all the datasets considered in this paper is given in Section
 
 Apart from the simulated datasets that were created for the purpose of this paper and are now publically releashed in this repository, the real-world applications considered in this paper are common, publicly available data. The vast majority of these consist of standard daily stock prices (either of individual stocks or stock market indices), which are widely available online, and are in some cases tranformed (taking logs, differences, etc) to create the datasets used in the paper; see Section C of the Supplemental Material of the paper for more details. The only datasets of different kind are the Unemployment Rate and GNP of the US, which are available for example from the US Bureau of Labor Statistics (BLS) and the Federal Reserve Bank of St. Louis (FRED), resepctively; see links the Supplemental material. 
 
+## References
+
+* I. Papageorgiou and I. Kontoyiannis. The Bayesian Context Trees State Space Model for time series
+modelling and forecasting. Submitted, International Journal of Forecasting, 2025.
+
+* R.J. Hyndman and Y. Khandakar. Automatic time series forecasting: The forecast package for R.
+J. Stat. Softw., 26(3):1–22, 2008.
+
+* A. Alexandrov, K. Benidis, M. Bohlke-Schneider, V. Flunkert, J. Gasthaus, T. Januschowski, D.C.
+Maddix, S.S. Rangapuram, D. Salinas, J. Schulz, L. Stella, A.C. T¨urkmen, and Y. Wang. GluonTS:
+Probabilistic and neural time series modeling in Python. J. of Mach. Learn. Res., 21(116):1–6, 2020.
+
+* A. Ghalanos. rugarch: Univariate GARCH models. R package version 1.4, October 2022. Available
+at CRAN.R-project.org/package=rugarch.
+
+
+
 
