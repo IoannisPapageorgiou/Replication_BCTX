@@ -13,7 +13,7 @@ The main contents of this repository are organised in the following folders:
 * table3
 * fig5
 
-where one of these contains: 
+where one of these folders contains: 
 
 1) The data used in generating corresponding table/figure
 2) The code used to generate the BCT-X forecasting results
