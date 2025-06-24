@@ -41,8 +41,7 @@ modelling and forecasting. Submitted, International Journal of Forecasting, 2025
 * R.J. Hyndman and Y. Khandakar. Automatic time series forecasting: The forecast package for R.
 J. Stat. Softw., 26(3):1–22, 2008.
 
-* A. Alexandrov, K. Benidis, M. Bohlke-Schneider, V. Flunkert, J. Gasthaus, T. Januschowski, D.C.
-Maddix, S.S. Rangapuram, D. Salinas, J. Schulz, L. Stella, A.C. T¨urkmen, and Y. Wang. GluonTS:
+* A. Alexandrov, et al. GluonTS:
 Probabilistic and neural time series modeling in Python. J. of Mach. Learn. Res., 21(116):1–6, 2020.
 
 * A. Ghalanos. rugarch: Univariate GARCH models. R package version 1.4, October 2022. Available
