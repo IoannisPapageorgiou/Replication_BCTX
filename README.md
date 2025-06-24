@@ -15,6 +15,14 @@ The main contents of this repository are organised in the following folders:
 
 Each one of these folders contains: 
 
-1) The data used for the correspnding table/figure
+1) The data used in generating corresponding table/figure
 2) The code used to generate the BCT-X forecasting results
 3) The code used to generate the forecasting results of alternative methods
+
+## Instructions and computational requirements
+
+Since an important advantage of the methodology proposed in this paper is its low computational (time and space) requirements, all experiments were carried out on the CPu of a common laptop.
+
+The proposed BCT-X methodology is implemented in C++ code for further computational efficiency. A different .cpp file is included in each folder which generates the BCT-X forecasting results of the correspnding fure/table.
+
+Altrnative methods are implented in R and Python. A complete description of these alternatives approaches are given in each subfolder, and further details can be found in the Supplementary Material of the paper. Important resources here include the R package $forecast$
