@@ -15,6 +15,6 @@ The main contents of this repository are organised in the following folders:
 
 Each one of these folders contains: 
 
-1) The datasets used for the correspnding table/figure
+1) The data used for the correspnding table/figure
 2) The code used to generate the BCT-X forecasting results
 3) The code used to generate the forecasting results of alternative methods
