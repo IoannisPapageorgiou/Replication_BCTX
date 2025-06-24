@@ -26,3 +26,11 @@ Since an important advantage of the methodology proposed in this paper is its lo
 The proposed BCT-X methodology is implemented in C++ code for further computational efficiency. A different ".cpp" file is included in each folder which generates the BCT-X forecasting results of the correspnding figure/table. The data read by the C++ code (at the start of the main function) should be at the same directory with the ".cpp" file.
 
 Altrnative methods are implented in R and Python. A complete description of these alternatives approaches and their corresponding dependencies are given in each subfolder, and further details can be found in the main paper and the Supplementary Material (Section E). Important resources include the R package 'forecast', which implements common and widely-used forecasting approaches, the python libraby 'GluonTS', which implements a number of machine learning approaches, and the R package 'rugarch', which implements volatility models.
+
+## Data availability and provenance
+
+A complete list of all the datasets considered in this paper is given in Section C of the Supplemental Material of the paper, which includes a description of each dataset as well as their original sources. In the above directories, the datasets are included in the corresponding figure/table in which they are used.
+
+Apart from the simulated datasets that were created for the purpose of this paper and are now publically releashed in this repository, the real-world applications considered in this paper are common, publically available data. Most of these consist of standard daily stock prices (either of individual stocks or stock market indices), which are widely available online, and are in some cases tranformed (taking logs, differences, etc) to create the datasets conidered in the paper; see Section C of the Supplemental Material of the paper for more details. The only datasets of different kind are the Unemployment Rate and GNP of the US, which are available for example from the US Bureau of Labor Statistics (BLS) and the Federal Reserve Bank of St. Louis (FRED); see links the Supplemental material. 
+
+
