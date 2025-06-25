@@ -1,6 +1,6 @@
 mse = 0;
 
-xn = read.csv("sim1.txt", header = FALSE) ##read desired dataset here
+xn = read.csv("sim1.txt", header = FALSE) ## read desired dataset here
 n = length(xn[,1])
 n2 = n/2
 
