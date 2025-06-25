@@ -17,7 +17,7 @@ for (n in l:l2){
   dts = ts(temp);
   
   
-  mar = fit_mixAR(temp,model = c(2,2));
+  mar = fit_mixAR(temp,model = c(2,2)); ## MAR model parameters
   pr=mar$model;
   
   past = c(sim_data[n-2], sim_data[n-1,1]);
