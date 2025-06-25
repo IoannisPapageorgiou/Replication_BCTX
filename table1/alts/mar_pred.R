@@ -6,7 +6,7 @@ pred_step =1;
 
 xn = read.csv("sim1.txt", header = FALSE) ## read desired dataset here
 l = length(xn[,1])
-l2 = n/2
+l2 = l/2
 
 
 for (n in l:l2){
