@@ -233,7 +233,7 @@ int main() {
 	cout << xn.size() << endl; 
 
 
-	pred_mse(xn, xn.size() - 130);
+	pred_mse(xn, xn.size() - 130); // This computes and outputs the log-predictive density results.
 	return 0;
 
 
