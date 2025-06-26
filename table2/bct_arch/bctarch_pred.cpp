@@ -225,7 +225,7 @@ int main() {
 	ifstream if_file("ftse.txt", ios::in); // Here for FTSE 100 dataset; replace this with other datasets to repeat experiment.
 
 	double temp_x = 0.0;
-	while (if_file >> temp_x && xn.size()<7821) {
+	while (if_file >> temp_x) {
 		xn.push_back(temp_x);
 	}
 	
