@@ -16,7 +16,6 @@ for (i in train:mysize){
 y22 = tf[1:i-1,1];
 
 
-
 #drawsar <- svsample(y22, draws = 1000, burnin = 100,
                     #designmatrix = "ar1", priormu = c(0, 1.0), priorphi = c(1.0,1.0),
                     #priorsigma = 1.0)
@@ -34,7 +33,5 @@ prv = mean(as.numeric(unlist(forear[["vol"]])))
 ll= ll + dnorm(tf[i,1], mean = prm, sd = prv, log = TRUE)
 
 }
-
-
 
 ll
