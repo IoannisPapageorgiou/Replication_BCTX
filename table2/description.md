@@ -1,6 +1,6 @@
-In this folder the results of Table 1 are replicated.
+In this folder the results of Table 2 are replicated.
 
-The folder "data" includes the datasets used in this experiment: the simulated datasets sim1, sim2, sim3, and the real-world datasets unemp, gnp, ibm. All real-world datasets contain the transformed (differenced, etc.) data, so they just need to be loaded in their exact form.
+The folder "data" includes the datasets used in this experiment, i.e., the (appropriately transformed) daily values of important stock market indices: FTSE 100, CAC 40, DAX and S&P 500.
 
 The folder "bct_ar" contains the C++ code for the BCT-AR model in the above foecasting experiments. For simplicity and ease of preproduction, a different ".cpp" file is given for each real-world dataset, in which all the BCT-AR hyperparameters are already tuned appropriately.
 
