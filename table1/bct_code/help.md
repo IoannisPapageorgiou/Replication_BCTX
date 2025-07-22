@@ -1,4 +1,6 @@
-The folder "bct_code" contains the C++ code for the BCT-AR model in the foecasting experiments of Table 1. For simplicity and ease of preproduction, a different ".cpp" file is given for each dataset, in which all the BCT-AR hyperparameters are already tuned appropriately for the corresponding experiments.
+The folder "bct_code" contains the C++ code for the BCT-AR model in the foecasting experiments of Table 1. For simplicity and ease of preproduction, a different ".cpp" file is given for each dataset, in which all the BCT-AR hyperparameters are already tuned appropriately for the corresponding experiment.
+
+While any standard could be used in order to compile the C++ code from the ".cpp" files, Microsoft Visual Studio is suggested. Every ".cpp" files reads the corresponding dataset  
 
 
 The proposed BCT-X methodology is implemented in C++ for computational efficiency. A different ".cpp" file is included in each folder which generates the BCT-X forecasting results of the correspnding figure/table; the data read by the C++ code should be at the same directory with the ".cpp" file. This C++ implementation has been built using the linear algebra library 'Eigen' (version 3.3.9, available at: https://eigen.tuxfamily.org/index.php?title=Main_Page), which needs to be included as an additional directory.
