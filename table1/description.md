@@ -12,7 +12,7 @@ The folder "bct_code" contains the C++ code for the BCT-AR model in the above fo
 
 # Code for alternative methods
 
-The folder "alts" contains implementations of the alternative methods in R and Python. These files automatically load the data from the folder "table1/data" and compute the MSE results from the corresponding method. Specifically:
+The folder "alts" contains implementations of the alternative methods in R and Python. These files automatically load the data from the folder "table1/data", and compute the MSE forecasting results for the corresponding method. Specifically:
 
 * The file 'forecast_pred.R' implements the methods ARIMA, ETS, and NNAR, using the R package 'forecast'.
 
