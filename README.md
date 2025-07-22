@@ -15,7 +15,7 @@ The main contents of this repository are organised in the following folders:
 
 Each of these folders contains everything that is required to reproduce the results of the corresponding table/figure, which for  convenience are organised as follows:
 
-1) A corresponding "readme" file that gives specific instructions for the required experiments.
+1) A "readme" file that gives specific instructions to reproduce the results of the corresponding experiment.
 1) A subfolder named "data" that containts all datasets used in generating the corresponding table/figure.
 2) A subfolder named "bct_code" that contains the code used to generate the BCT-X forecasting results.
 3) A subfolder named "alts" that contains the code used to generate the forecasting results of all the alternative methods.
