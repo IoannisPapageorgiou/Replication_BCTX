@@ -1,4 +1,4 @@
-This folder contains the C++ code for the BCT-AR model in the foecasting experiments of Table 1. For simplicity and ease of preproduction, a different ".cpp" file is given for each dataset, in which all the BCT-AR hyperparameters are already tuned appropriately for the corresponding experiment.
+This folder contains the C++ code for the BCT-AR model in the experiments of Table 1. For simplicity and ease of preproduction, a different ".cpp" file is given for each dataset, in which all the BCT-AR hyperparameters are already tuned appropriately for the corresponding experiment.
 
 While any standard could be used in order to compile the C++ code from the ".cpp" files, Microsoft Visual Studio is suggested. If Visual Studio is used for creating a project to run the C++ code, the datasets from the folder "table1/data" should also be copied to the corresponding project directory. Every ".cpp" files reads the corresponding dataset in the main function; for example, the file "sim1.txt" that is read in "pred_sim1.cpp" refers to the file in "table1/data/sim1.txt" that should also be copied to Visual Studio project repository.  
 
