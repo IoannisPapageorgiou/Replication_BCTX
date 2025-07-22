@@ -8,7 +8,7 @@ The folder "data" includes the datasets used in this experiment: the simulated d
 
 # BCT-AR code
 
-The folder "bct_code" contains the C++ code for the BCT-AR model in the above foecasting experiments. For simplicity and ease of preproduction, a different ".cpp" file is given for each dataset, in which all the BCT-AR hyperparameters are already tuned appropriately for the corresponding experiments. More explicit instruction to compile the C++ code are given in the file "bct_code/help.md".  
+The folder "bct_code" contains the C++ code for the BCT-AR model in the above foecasting experiments. For simplicity and ease of preproduction, a different ".cpp" file is given for each dataset, in which all the BCT-AR hyperparameters are already tuned appropriately for the corresponding experiment. More explicit instruction to compile the C++ code are given in the file "bct_code/help.md".  
 
 # Code for alternative methods
 
