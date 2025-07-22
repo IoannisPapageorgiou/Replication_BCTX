@@ -20,7 +20,7 @@ from gluonts.model.gp_forecaster import GaussianProcessEstimator
 # input here is the US GNP dataset read from 'gnp.txt'
 # can similarly use with the other simulated and real-world datasets.
 
-f = open("gnp_logdif.txt")
+f = open("../data/gnp.txt")
 lines = f.readlines()
 for i in list(range(0,291)):
     lines[i] = lines[i].strip()
