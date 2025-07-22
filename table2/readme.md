@@ -8,7 +8,7 @@ The folder "data" includes the datasets used in this experiment, i.e., the (appr
 
 # Code for the BCT-ARCH model
 
-The folder "bct_code" contains the C++ code for the BCT-ARCH model in the above forecasting experiments. Sice the same hyperparameters are selected for the BCT-ARCH model in all datasets, a single "bctarch_pred.cpp" file is used here. The dataset is read in the main function: the first dataset 'ftse.txt' (from the subfolder "table2/data") is read here (corresponding to FTSE 100), but the other datasets can be loaded similarly. 
+The folder "bct_code" contains the C++ code for the BCT-ARCH model in the above forecasting experiments. Since the same hyperparameters are selected for the BCT-ARCH model in all datasets, a single "bctarch_pred.cpp" file is used here. The dataset is read in the main function: the first dataset 'ftse.txt' (from the subfolder "table2/data") is read here (corresponding to FTSE 100), but the other datasets can be loaded similarly. 
 
 # Code for alternative methods
 
