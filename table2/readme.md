@@ -10,6 +10,8 @@ The folder "data" includes the datasets used in this experiment, i.e., the (appr
 
 The folder "bct_code" contains the C++ code for the BCT-ARCH model in the above forecasting experiments. Since the same hyperparameters are selected for the BCT-ARCH model in all cases, a single "bctarch_pred.cpp" file is used here. The dataset is read in the main function: the first dataset 'ftse.txt' (from the subfolder "table2/data") is read here (corresponding to FTSE 100), but the other datasets can be loaded similarly. 
 
+More specific instructions on how to compile the C++ code are identical with those for the BCT-AR model in the results of Table 1, which are given in the file "table1/bct_code/help.md".  
+
 # Code for alternative methods
 
 The folder "alts" contains implementations of the alternative methods in R. These files automatically load the data from the folder "table2/data", and compute the forecasting results for the corresponding method. Specifically:
