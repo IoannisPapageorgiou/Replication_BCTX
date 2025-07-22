@@ -4,4 +4,14 @@ The folder "data" includes the datasets used in this experiment: the simulated d
 
 The folder "bct_code" contains the C++ code for the BCT-AR model in the above foecasting experiments. For simplicity and ease of preproduction, a different ".cpp" file is given for each dataset, in which all the BCT-AR hyperparameters are already tuned appropriately.  
 
-The folder "alts" contains implementations of the alternative methods in R and Python. More specifically, the methods ARIMA, ETS and NNAR are implemented in 'forecast', and the methods DeepAR and N-BEATS are implemented in Python using the library 'GluonTS'. The MSA model is implemented using the R package 'MSwM', the SETAR model is implemented in the R package 'TSA', and finally the MAR model is implemeted using the R package 'mixAR'. 
+The folder "alts" contains implementations of the alternative methods in R and Python. These files automatically load the data from the folder "table1/data" and compute the MSE results from the corresponding method. Specifically:
+
+*The file 'forecast_pred.R' implements the methods ARIMA, ETS, and NNAR, using the R package 'forecast'.
+
+*The file 'gluonts_pred.py' is Python code which implements the methods DeepAR and N-BEATS, using the library 'GluonTS'.
+
+*The file 'msa_pred.R' implements the MSA model using the R package 'MSwM'.
+
+*The file 'mar_pred.R' implements the MAR model using the R package 'mixAR'.
+
+*The file 'tar_pred.R' implements the SETAR model using the R package 'TSA'.
