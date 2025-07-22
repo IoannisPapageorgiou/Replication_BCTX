@@ -1,8 +1,14 @@
 In this folder the results of Table 1 are replicated.
 
+# Data
+
 The folder "data" includes the datasets used in this experiment: the simulated datasets sim1, sim2, sim3, and the real-world datasets unemp, gnp, ibm. All real-world datasets contain the transformed (differenced, etc.) data, so they just need to be loaded in their exact form.
 
+# BCT-AR code
+
 The folder "bct_code" contains the C++ code for the BCT-AR model in the above foecasting experiments. For simplicity and ease of preproduction, a different ".cpp" file is given for each dataset, in which all the BCT-AR hyperparameters are already tuned appropriately.  
+
+# Code for alternative methods
 
 The folder "alts" contains implementations of the alternative methods in R and Python. These files automatically load the data from the folder "table1/data" and compute the MSE results from the corresponding method. Specifically:
 
