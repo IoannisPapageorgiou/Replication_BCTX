@@ -14,3 +14,11 @@ The folder "bct_code" contains the C++ code for the BCT-ARCH model in the above 
 
 The folder "alts" contains implementations of the alternative methods in R. These files automatically load the data from the folder "table1/data", and compute the forecasting results for the corresponding method. Specifically:
 
+* The file 'all_garch_pred.R' implements the methods ARCH, GARCH, GJR, and EGARCH using the R package 'rugarch'.
+
+* The file 'msgarch_pred.R' implements the MSGARCH model using the R package 'MSGARCH'.
+
+* The file 'stochvol_pred.R' implements the SV model using the R package 'stochvol'.
+
+
+
