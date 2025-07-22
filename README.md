@@ -2,7 +2,7 @@
 
 Ioannis Papageorgiou and Ioannis Kontoyiannis
 
-## Overview and contents
+## Overview, contents and instructions
 
 The code in this repository generates the forecasting results in the paper "The Bayesian Context Trees State Space Model for time series modelling and forecasting", and more specifically, those presented in Tables 1-3 and Figure 5.
 
@@ -20,7 +20,7 @@ Each of these folders contains everything that is required to reproduce the resu
 2) A subfolder named "bct_code" that contains the code used to generate the BCT-X forecasting results.
 3) A subfolder named "alts" that contains the code used to generate the forecasting results of all the alternative methods.
 
-## Instructions and computational requirements
+## Computational requirements and dependencies
 
 Since an important advantage of the methodology proposed in this paper is its low computational requirements (time and space), all experiments were carried out on the CPU of a common laptop.
 
