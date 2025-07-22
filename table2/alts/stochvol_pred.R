@@ -1,7 +1,7 @@
 library(stochvol)
 
 #tf is data
-tf=read.delim("ftse.txt", header = FALSE) #can similarly replace this with other datasets
+tf=read.delim("../data/ftse.txt", header = FALSE) #can similarly replace this with other datasets
 
 mysize=nrow(tf);
 train=nrow(tf)-130+1;
