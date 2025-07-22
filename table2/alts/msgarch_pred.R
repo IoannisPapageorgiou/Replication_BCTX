@@ -1,6 +1,6 @@
 library(MSGARCH)
 
-tf=read.delim("ftse.txt", header = FALSE) # read data
+tf=read.delim("../data/ftse.txt", header = FALSE) # read data
 tfnum=as.numeric(unlist(tf))
 
 
