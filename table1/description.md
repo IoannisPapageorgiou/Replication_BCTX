@@ -1,4 +1,6 @@
-In this folder the results of Table 1 are replicated.
+# Description
+
+This folder folder contains data and code to reproduce the results of Table 1.
 
 # Data
 
