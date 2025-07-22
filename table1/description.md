@@ -6,12 +6,12 @@ The folder "bct_code" contains the C++ code for the BCT-AR model in the above fo
 
 The folder "alts" contains implementations of the alternative methods in R and Python. These files automatically load the data from the folder "table1/data" and compute the MSE results from the corresponding method. Specifically:
 
-* The file 'alts/forecast_pred.R' implements the methods ARIMA, ETS, and NNAR, using the R package 'forecast'.
+* The file 'forecast_pred.R' implements the methods ARIMA, ETS, and NNAR, using the R package 'forecast'.
 
-* The file 'alts/gluonts_pred.py' is Python code which implements the methods DeepAR and N-BEATS, using the library 'GluonTS'.
+* The file 'gluonts_pred.py' is Python code which implements the methods DeepAR and N-BEATS, using the library 'GluonTS'.
 
-* The file 'alts/msa_pred.R' implements the MSA model using the R package 'MSwM'.
+* The file 'msa_pred.R' implements the MSA model using the R package 'MSwM'.
 
-* The file 'alts/mar_pred.R' implements the MAR model using the R package 'mixAR'.
+* The file 'mar_pred.R' implements the MAR model using the R package 'mixAR'.
 
-* The file 'alts/tar_pred.R' implements the SETAR model using the R package 'TSA'.
+* The file 'tar_pred.R' implements the SETAR model using the R package 'TSA'.
